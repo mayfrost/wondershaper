@@ -1,0 +1,8 @@
+Changes since version 1.1:
+	- Georg Wild <georg.wild@gmx.de> noticed that
+	  NOPRIOHOSTDST was never used
+
+Changes since version 1.0:
+
+	- we now prioritize ALL small packets, not just acks
+	- ability to deprioritize certain source/dst host/ports
